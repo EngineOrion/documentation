@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-03-30T16:20:51.365Z
+date: 2021-03-30T20:01:01.458Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -14,7 +14,7 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Erledigt
 - Ausarbeitung und Definition des Portals.
 - Klare Definition der JSON-Kommunikation.
-- Erster einfacher TCP-Listener mit [erlang/ranch](https://github.com/ninenines/ranch).
+- Erster einfacher TCP-Listener mit gen_tcp).
 - Einfacher Textinput für install.sh script.
 ## Planung & Gedanken
 - Wichtige (noch teilweise offene) Frage: Welche Komponenten des Systems sollen aktiv (eigene Prozesse / Threads) und welche passiv sein?
