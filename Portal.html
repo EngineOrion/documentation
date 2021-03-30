@@ -2,17 +2,18 @@
 title: Portal Definitionen
 description: Definitionen der Bestandteile für das Interconnect innerhalb einer Node.
 published: 1
-date: 2021-03-30T16:03:47.991Z
+date: 2021-03-30T16:19:29.884Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-03-30T15:37:57.349Z
 -->
 
 <h1>Einführung</h1>
-<p>&nbsp;</p>
+<p>Unser System soll in logische und einfache Komponenten aufgeteilt werden. Das hat aber zur folge, das die einzelnen Komponenten miteinander kommunizieren müssen.&nbsp;</p>
 <h1>Technologien</h1>
 <p>Der Interconnect basiert auch Linux IPC Sockets und dient als zentrale Schnittstelle zwischen den Schnittstellen. Zu den Schnittstellen für das Backend gehören die Datenbank, welche Node spezifisch ist und der Transportlayer innerhalb des verteilten Datensystems. Das Interface für HTTP und Websocket Verbindungen kommuniziert auch über diese Schnittstelle.&nbsp;</p>
-<p>Der Datenaustausch erfolgt mit JSON Objekten. Die JSON Objekte müssen die folgenden Elemente besitzen:&nbsp;</p>
+<p>Der Datenaustausch erfolgt mit JSON Objekten. Wir haben uns für JSON entschieden, weil es ein sehr einfachen und leicht verständlichen Syntax hat und weit verbreitet ist. Ausserdem haben alle aktuellen Sprachen Libraries um JSON Objekte zu parsen.</p>
+<p>Die JSON Objekte müssen die folgenden Elemente besitzen:&nbsp;</p>
 <ul>
   <li>Sender</li>
   <li>Empfänger</li>
@@ -20,12 +21,12 @@ dateCreated: 2021-03-30T15:37:57.349Z
 </ul>
 <p>Das heisst, ein Beispielsobjekt könnte folgendermassen aussehen:</p>
 <pre><code class="language-javascript">{
-	"transmitter": ID,
+	"sender": ID,
 	"receiver": ID,
 	"body": 
 	{
 		"filename": NAME,
-		"content": ByteSequence
+		"content": BYTESEQUENCE
 	}
 }</code></pre>
-<p>&nbsp;</p>
+<p>Die drei Grundparametern müssen vorhanden sein, damit die Kommunikation problemlos verläuft. Der Bodyinhalt ist aber abhängig von den Daten die übermittelt werden sollen. Im obigen Beispiel ist es wie ein Fileinhalt übermittelt werden soll. Das heisst, das verschiedene Bodydefintionen geschrieben werden müssen.</p>
