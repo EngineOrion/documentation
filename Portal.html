@@ -2,10 +2,21 @@
 title: Portal Definitionen
 description: Definitionen der Bestandteile für das Interconnect innerhalb einer Node.
 published: 1
-date: 2021-03-30T15:37:57.349Z
+date: 2021-03-30T15:58:27.830Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-03-30T15:37:57.349Z
 -->
 
 <h1>Einführung</h1>
+<p>&nbsp;</p>
+<h1>Technologien</h1>
+<p>Der Interconnect basiert auch Linux IPC Sockets und dient als zentrale Schnittstelle zwischen den Schnittstellen. Zu den Schnittstellen für das Backend gehören die Datenbank, welche Node spezifisch ist und der Transportlayer innerhalb des verteilten Datensystems. Das Interface für HTTP und Websocket Verbindungen kommuniziert auch über diese Schnittstelle.&nbsp;</p>
+<p>Der Datenaustausch erfolgt mit JSON Objekten. Die JSON Objekte müssen die folgenden Elemente besitzen:&nbsp;</p>
+<ul>
+  <li>Sender</li>
+  <li>Empfänger</li>
+  <li>Body</li>
+</ul>
+<p>Das heisst, ein Beispielsobjekt könnte folgendermassen aussehen:</p>
+<p>&nbsp;</p>
