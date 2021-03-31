@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-03-31T19:45:31.916Z
+date: 2021-03-31T19:47:00.538Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -17,7 +17,7 @@ dateCreated: 2021-03-26T15:57:07.835Z
   - Angefangen das Configurationsmanagement zu implementieren.
 ## Planung & Gedanken
 - Bisher haben wir die einzelnen Container als einzelne Prozesse implementieren wollen, aber dies hat wahrscheinlich zu viel Overhead, weshalb es mehr Sinn macht, einen Prozess zu starten und die Container als Green Threads zu starten. 
-- Dies hat allerdings zur Folge, das die einzelnen Interfaces gut geschützt sein müssen und keinesfalls Race Conditions entstehen. 
+- Dies hat allerdings zur Folge, dass die einzelnen Interfaces gut geschützt sein müssen und keinesfalls Race Conditions entstehen. 
 ## Aufgaben
 - Die Programmiersprache entwerfen und den Tokenizer schreiben.
 # 30.3.2021
