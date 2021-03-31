@@ -2,12 +2,24 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-03-31T18:47:29.870Z
+date: 2021-03-31T19:45:31.916Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 31.3.2021
+## Erledigt
+- Repository ist [hier](https://github.com/EngineOrion/container) erreichbar.
+- Start der Entwicklung der Container.
+	- Implementierung der Command Line Arguements.
+  - Angefangen das Prozessmanagement zu implementieren.
+  - Angefangen das Configurationsmanagement zu implementieren.
+## Planung & Gedanken
+- Bisher haben wir die einzelnen Container als einzelne Prozesse implementieren wollen, aber dies hat wahrscheinlich zu viel Overhead, weshalb es mehr Sinn macht, einen Prozess zu starten und die Container als Green Threads zu starten. 
+- Dies hat allerdings zur Folge, das die einzelnen Interfaces gut geschützt sein müssen und keinesfalls Race Conditions entstehen. 
+## Aufgaben
+- Die Programmiersprache entwerfen und den Tokenizer schreiben.
 # 30.3.2021
 - Definition des Portals
 - Erster TCP-Receiver / Server
@@ -43,9 +55,3 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Erledigt
 ## Planung & Gedanken
 ## Aufgaben
-# 31.3.2021
-- Repository ist [hier](https://github.com/Domse007/container) erreichbar.
-- Start der Entwicklung der Container.
-	- Implementierung der Command Line Arguements.
-  - Angefangen das Prozessmanagement zu implementieren.
-  - Angefangen das Configurationsmanagement zu implementieren.
