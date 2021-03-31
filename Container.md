@@ -2,11 +2,11 @@
 title: Container
 description: Beschreibung der Implementierung und Dokumentation der Container
 published: 1
-date: 2021-03-31T18:51:34.935Z
+date: 2021-03-31T19:17:03.611Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-31T18:51:34.935Z
 ---
 
-# Header
-Your content here
+# Container
+Die Container ist der Prozess auf einem Server, der die User managed und auf die Instruktionen der 
