@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-03-31T11:17:10.619Z
+date: 2021-03-31T18:47:29.870Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -43,3 +43,9 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Erledigt
 ## Planung & Gedanken
 ## Aufgaben
+# 31.3.2021
+- Repository ist [hier](https://github.com/Domse007/container) erreichbar.
+- Start der Entwicklung der Container.
+	- Implementierung der Command Line Arguements.
+  - Angefangen das Prozessmanagement zu implementieren.
+  - Angefangen das Configurationsmanagement zu implementieren.
