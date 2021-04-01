@@ -2,11 +2,25 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-03-31T19:47:50.325Z
+date: 2021-04-01T17:21:42.242Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
+
+# 4.1.2021
+- Erste Routing Logik
+## Erledigt
+- Grundlegende Struktur der Routing Logik in Elixir.
+- Vollständige implementierung des "self-fetching" (Informationen übers eigene System ins Elixir-System laden).
+- Definiton der Felder für den Routing.Table und die "Remotes".
+## Planung & Gedanken
+- Ein eindeutiges und zuverlässiges System zum Kategorisieren und Speichern von aktiven Verbindungen wird benötigt.
+- Nodes brachen einen "Score" um schlechtere Nodes ersetzen zu können, vorallem durch die Zeit seit der Verbindung.
+- Wie kann man sicher gehen, dass jemand nicht den Verifizierungsprozess auschaltet? => Zufällige remote file requests.
+## Aufgaben
+- Strukturen und Funktionen für Remotes.
+- Funktionen zur modifikation des Routing Tables.
 
 # 31.3.2021
 ## Erledigt
