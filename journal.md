@@ -2,11 +2,25 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-01T17:21:42.242Z
+date: 2021-04-07T15:33:17.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
+
+# 7.4.2021
+## Erledigt
+- Angefangen den Code zu dokumentieren. Kann mit `cargo doc` generiert werden.
+- Angefangen das README zu schreiben.
+- Angefangen das Multithreading zu implementieren.
+## Planung & Gedanken
+- Ich habe den Commit `d779e65` viel zu lange aufgeschoben. In Zukunft sollte ich die Änderungen regelmässiger und strukturierter commiten.
+- Die threading Geschichte wird komplizierter als ich mir das am Anfang vorgestellt habe. 
+- Wie kann man `rustdoc` noch verbessern.
+## Aufgaben
+- Das Threadingproblem ist komplexer als gedacht und wird der Fokus in dern nächsten Zeit sein.
+- `thread.rs` dokumentieren.
+- Das README erweitern & überarbeiten.
 
 # 4.1.2021
 - Erste Routing Logik
