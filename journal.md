@@ -2,25 +2,29 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-07T15:33:17.638Z
+date: 2021-04-07T16:19:56.302Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
 # 7.4.2021
+- Multithreading Logik.
+- Neue Implementierung der TCP-Listener Logik.
 ## Erledigt
 - Angefangen den Code zu dokumentieren. Kann mit `cargo doc` generiert werden.
-- Angefangen das README zu schreiben.
-- Angefangen das Multithreading zu implementieren.
+- Erstes README für Container-Repo geschrieben.
+- Prototyp der Multithreading implementierung.
+- Anstelle der bisherigen `:gen_tcp` Logik ist es einfacher `ranch` zu verwenden.
 ## Planung & Gedanken
-- Ich habe den Commit `d779e65` viel zu lange aufgeschoben. In Zukunft sollte ich die Änderungen regelmässiger und strukturierter commiten.
-- Die threading Geschichte wird komplizierter als ich mir das am Anfang vorgestellt habe. 
-- Wie kann man `rustdoc` noch verbessern.
+- Multithreading ist einiges komplizierter als erwartet.
+- Das Zusammenspiel zwischen den verschiedenen Threads muss sicher und zuverlässig geregelt sein, sonst könnte das System schnell zerfallen.
+- Mit `ranch` lässt sich Code und Ports sparen, Verbindungen sollten einfacher geregelt werden können.
 ## Aufgaben
-- Das Threadingproblem ist komplexer als gedacht und wird der Fokus in dern nächsten Zeit sein.
+- Das Threadingproblem ist komplexer als gedacht und wird der Fokus in der nächsten Zeit sein.
 - `thread.rs` dokumentieren.
-- Das README erweitern & überarbeiten.
+- README erweitern & überarbeiten.
+- Beidseitige TCP-Communikation.
 
 # 4.1.2021
 - Erste Routing Logik
