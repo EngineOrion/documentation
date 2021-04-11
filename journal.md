@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-11T13:17:35.120Z
+date: 2021-04-11T13:20:07.648Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -16,6 +16,7 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Planung & Gedanken
 - TCP-Listening hat immer noch Probleme.
 - Dedizierter Registry Server für Remote-GenServer Prozesse.
+- Ein zentraler Routing-Prozess wird benötigt, um Nachrichten in beide Richtungen zu verarbeiten.
 ## Aufgaben
 - Registry (Custom oder Default)
 - TCP-Listener
