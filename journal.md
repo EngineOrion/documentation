@@ -7,7 +7,21 @@ tags:
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
-
+# 20.4.2021
+- Umstrukturierung der Code-Struktur fürs Datensystem.
+## Erledigt
+- Allgemeine Umstrukturierung des Codes.
+- Entfernung unnötiger Abschnitte (Verification)
+- Eigene Routing / Supervisor Logik
+- Erste Vorschläge fürs Nachrichtenprotokoll
+## Planung & Gedanken
+- Durch einen zentralen Routing-Prozess lässt sich die allgemeine
+  Infrastruktur stark vereinfachen.
+- Es ist möglich sowohl "listener" als auch "sender" in einem Modul zu
+  haben, da sie ähnliche Callback-Strukturen haben. Dadurch sinkt der
+  Aufwand und Umfang stark.
+## Aufgaben
+- Monitor & Map-Update finalisieren. 
 # 11.4.2021
 - TCP-Remote Logik für ausgehende TCP-Verbindungen.
 ## Erledigt
