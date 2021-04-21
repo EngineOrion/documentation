@@ -7,6 +7,28 @@ tags:
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
+# 21.4.2021
+- Aktivierungslogik für direkte Kommunikation zwischen zwei Nodes.
+- Interaktionen (Export) mit dem lokalen Dateisystem. 
+## Erledigt
+- Neu verbindende Nodes können (und müssen) jetzt aktiviert werden,
+  indem sie spezielle Requests schicken und die nötigen Daten übertragen.
+- Genauere Definition der Portal-Logik (Path=/proc/orion/shadow.sock).
+- Routing Logik für eingehende Nachrichten und Unterscheidung zwischen
+  lokalen und externen Containern. 
+## Planung & Gedanken
+- Shadow lässt sich teilweise optimieren, indem verschiedene
+  Komponenten mit ähnlichen Funktionen (Router & Supervisor) noch
+  weiter integriert werden. Dabei muss man aber aufpassen, nicht
+  komplette Funktionen der Sprache neu zu erfinden.
+- Für spätere Versionen muss man sich mit Edge-Cases und schlechten
+  Verbindungen kümmern, aktuell hofft man immer auf perfekte
+  Bedingungen. 
+## Aufgaben
+- Aktivierung muss beantwortet werden, damit sie tatsächlich
+  beidseitig ist. -> Die existierende Logik lässt sich wieder
+  verwenden, solange die gleichen Ausgangssituationen vorhanden sind. 
+- Error handeling und Unit tests.
 # 20.4.2021
 - Umstrukturierung der Code-Struktur fürs Datensystem.
 ## Erledigt
