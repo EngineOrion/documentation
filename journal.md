@@ -2,11 +2,12 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-11T13:20:07.648Z
+date: 2021-04-23T18:44:23.961Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
+
 # 21.4.2021
 - Aktivierungslogik für direkte Kommunikation zwischen zwei Nodes.
 - Interaktionen (Export) mit dem lokalen Dateisystem. 
