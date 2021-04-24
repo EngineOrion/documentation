@@ -2,7 +2,7 @@
 title: Portal Definition
 description: Communication Interface between local components.
 published: 1
-date: 2021-03-30T17:16:24.242Z
+date: 2021-04-23T17:32:21.745Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T17:16:24.242Z

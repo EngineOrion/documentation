@@ -2,7 +2,7 @@
 title: Kommentar
 description: 
 published: 1
-date: 2021-04-09T18:23:20.949Z
+date: 2021-04-23T17:32:19.052Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-09T18:22:03.942Z

@@ -2,9 +2,10 @@
 title: Configuration
 description: 
 published: 1
+date: 2021-04-23T17:32:10.059Z
 tags: info
 editor: markdown
-dateCreated: 2021-04-22
+dateCreated: 2021-04-23T17:32:07.435Z
 ---
 
 # Struktur
