@@ -2,12 +2,22 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-23T18:44:26.869Z
+date: 2021-04-25T20:17:11.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 25.4.2021
+- Confirmation activation
+## Erledigt
+- Auch wenn es zu einem unendlichen Two-Generals-Problem führt ist es wichtig, dass die activation requests bestätigt werden. Nach jedem requests wird jetzt eine Nachricht zurück geschickt (Typ 3).
+## Planung & Gedanken
+- Auch wenn beide Komponenten mit externen Servern & Clients getestet wurden muss das ganze System auf mehreren Geräten getestet werden.
+- Danach fehlt nur noch die Integration mit dem Sockets um einen Prototypen abzuschliessen.
+## Aufgaben
+- Unit-Testing & Type-Safety
+- Multi-Node Testing
 # 21.4.2021
 - Aktivierungslogik für direkte Kommunikation zwischen zwei Nodes.
 - Interaktionen (Export) mit dem lokalen Dateisystem. 
@@ -88,7 +98,6 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Aufgaben
 - Strukturen und Funktionen für Remotes.
 - Funktionen zur modifikation des Routing Tables.
-
 # 31.3.2021
 ## Erledigt
 - Repository ist [hier](https://github.com/EngineOrion/container) erreichbar.
@@ -132,7 +141,6 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Aufgaben
 - User input in install script um überschreiben zu verhindern.
 - Möglichkeiten zur "remote verification" in die Netzwerk-Planung einbauen.
-
 # Template
 ## Erledigt
 ## Planung & Gedanken
