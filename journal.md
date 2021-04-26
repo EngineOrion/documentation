@@ -2,12 +2,25 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-25T20:17:11.150Z
+date: 2021-04-26T16:43:23.764Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 26.4.2021
+- Start der Implementierung des NET-Script jitters
+## Erledigt
+- NET-Script kann nun rudimentär geparsed werden. 
+- Einige NET-Script Funktionen, welche in Rust implementiert werden müssen, wurden implementiert.
+- Dokumentation des Jitters. Dies beinhaltet die eine Beschreibung der Funktionen und Beispiele wie die Funktionen genutzt werden können.
+- Unit tests für den Jitter
+## Planung & Gedanken
+- Bisher wurden nur sehr einfache NET-Script instruktionen implementiert und diese wurden noch nicht ausgiebig getestet.
+- Ausserdem können die Funktionen noch optimiert werden.
+## Aufgaben
+- Ausbauen der Unit-Tests
+- Implementierung eines constructors für das Struct `ReturnResult`.
 # 25.4.2021
 - Confirmation activation
 ## Erledigt
