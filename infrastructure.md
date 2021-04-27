@@ -2,7 +2,7 @@
 title: Infrastructure
 description: Definition of the Orion Infrastructure and the components.
 published: 1
-date: 2021-04-23T17:32:16.414Z
+date: 2021-04-27T10:53:17.803Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-24T17:14:03.320Z
@@ -17,7 +17,7 @@ stärker integrierten Alternative basierend auf einem speziell
 entwickelten verteilten Datensystems und Nachrichten-Protokoll sowie
 einer Entwicklungsumgebung für das verarbeiten von Nachrichten soll sich
 die Barriere für Entwickler gesenkt werden.\
-`\noindent`{=latex} Das gesamte System lässt sich wie folgt darstellen,
+Das gesamte System lässt sich wie folgt darstellen,
 die einzelnen Komponenten werden danach einzeln besprochen:
 
 ![Übersicht aller wichtigen Komponenten (Blau = Nicht zwingend benötigt,
