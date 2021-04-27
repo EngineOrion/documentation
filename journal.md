@@ -2,12 +2,23 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-26T16:43:23.764Z
+date: 2021-04-27T16:29:55.841Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 27.4.2021
+- Erstes verteiltes Testen mehrerer verbundener Systeme
+## Erledigt
+- Verschiedenste Bug-Fixes und Optimierungen.
+- Allgemeine Dokumentation & Type-Safety.
+## Planung & Gedanken
+- Es wird langfristig irgend ein Script oder andere Lösung benötigt, um mit verschiedenen Instanzen einfacher umgehen zu können.
+- Das Shadow System ist aktuell bis auf eine Verbindung zum System fertiggestellt.
+## Aufgaben
+- Einfacheres (admin) Interface für häufige Funktionen.
+- Send-Funktion für neue, externe Nachrichten mit Target Query.
 # 26.4.2021
 - Start der Implementierung des NET-Script jitters
 ## Erledigt
