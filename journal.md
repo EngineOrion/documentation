@@ -2,12 +2,24 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-04-27T16:29:55.841Z
+date: 2021-05-01T22:02:51.274Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 1.5.2021
+- Erste Unix-Socket Implementierung für shadow
+## Erledigt
+- Erste Testes beider Komponenten und der Kommunikation über Unix-Sockets.
+- Implementierung der Socket Logik integriert ins restliche System (Routing).
+## Planung & Gedanken
+- Socket file muss bei jedem Neustart gelöscht werden.
+- Mit einem einheitlichen Messaging-System lassen sich alle Quellen ähnlich verarbeiten.
+- Das aktuelle System erlaubt es nicht, neue Message-Typen zu definieren.
+- Das aktuelle "Loop-Prevention-System" ist nicht sinnvoll, Systemzeiten sind zu verschieden.
+## Aufgaben
+- Messaging-log an Nachrichten anfügen, send check einbauen.
 # 27.4.2021
 - Erstes verteiltes Testen mehrerer verbundener Systeme
 ## Erledigt
