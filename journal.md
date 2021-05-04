@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-03T12:16:03.991Z
+date: 2021-05-04T10:22:37.115Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -10,12 +10,16 @@ dateCreated: 2021-03-26T15:57:07.835Z
 
 # 3.5.2021
 - Erste Implementierung des Websocket-Clients für Prototype-Demo.
+- Überarbeitung des NET-Script Jitters
 ## Erledigt
 - für den ersten Prototypen wurden heute die verbleibenden Aufgaben aufgeteilt.
 - Der Websocket-Client grundlegend implementiert, Android-App / Web-Client muss noch gemacht werden.
+- Variablen sind für Rust Instancen des `Variablen` Structs.
+- Variablen können ohne Umwandlung in jede Funktion übergeben werden. Jede Rust source Funktion fragt zuerst nach dem richtigen Typ und beginnt erst dann die eigentliche Aufgabe.
 ## Planung & Gedanken
 - Es ist einfacher die Datenbank auf der anderen Seite des Portals zu haben, da sie für jeden Container benögtigt wird. 
 - Das Portal soll als dedizierter Container, "Routing", gehandhabt werden.
+- Da schlussendlich alles Objekte sind ist es möglich NET-Script AOT (Ahead Of Time) zu Jitten, damit es bei Gebrauch direkt verwendet werden kann.
 ## Aufgaben
 - Socket-Matching von Container zu WS.
 - Definition USER-ID's
