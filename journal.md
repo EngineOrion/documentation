@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-04T10:22:37.115Z
+date: 2021-05-04T10:25:04.922Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -23,6 +23,7 @@ dateCreated: 2021-03-26T15:57:07.835Z
 ## Aufgaben
 - Socket-Matching von Container zu WS.
 - Definition USER-ID's
+- Funktionen implementieren und die Init-Routine.
 # 1.5.2021
 - Erste Unix-Socket Implementierung für shadow
 ## Erledigt
