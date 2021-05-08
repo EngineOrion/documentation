@@ -2,12 +2,25 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-04T10:25:04.922Z
+date: 2021-05-08T15:09:50.382Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 8.5.2021
+- Verteiltes Testen von Shadow
+## Erledigt
+- Verschiedenste Bug-Fixes & Optimierungen für Shadow
+- Dedizierte Test-Umgebung für verteiltes Testen.
+- Struktur und Einführung für den schriftlichen Kommentar.
+- Integrationstests mit Unix Sockets / Hunter
+## Planung & Gedanken
+- Das System (Shadow) braucht signifikant mehr error-handeling und fault-tolerance um skalierbar zu werden.
+- Alle Routing Funktionen werden in einen dedizierten Router (hunter) ausgelagert, dadurch werden die einzelnen Komponenten unabhängiger.
+## Aufgaben
+- Full stack testing
+- Shadow fault tolerance
 # 3.5.2021
 - Erste Implementierung des Websocket-Clients für Prototype-Demo.
 - Überarbeitung des NET-Script Jitters
