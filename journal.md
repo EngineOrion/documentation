@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-08T15:09:50.382Z
+date: 2021-05-10T11:04:36.941Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -10,14 +10,17 @@ dateCreated: 2021-03-26T15:57:07.835Z
 
 # 8.5.2021
 - Verteiltes Testen von Shadow
+- Überarbeiten des AOT-AST-Parsers
 ## Erledigt
 - Verschiedenste Bug-Fixes & Optimierungen für Shadow
 - Dedizierte Test-Umgebung für verteiltes Testen.
 - Struktur und Einführung für den schriftlichen Kommentar.
 - Integrationstests mit Unix Sockets / Hunter
+- Funktionen und Defuns können nun AOT geparsed werden. Die entsprechenden Unit-Tests sind dafür geschrieben.
 ## Planung & Gedanken
 - Das System (Shadow) braucht signifikant mehr error-handeling und fault-tolerance um skalierbar zu werden.
 - Alle Routing Funktionen werden in einen dedizierten Router (hunter) ausgelagert, dadurch werden die einzelnen Komponenten unabhängiger.
+- Zurzeit ist geplant, das Variablen beim Ausführen nach mit ihrem Namef gefunden werden. Dies könnte allerdings ineffizient werden, weshalb es sich anbieten würde sie mit ihrem Index anzusprechen. Dafür müsste aber der Parser zwei mal über eine Funktion um die Indexe zu verteilen.
 ## Aufgaben
 - Full stack testing
 - Shadow fault tolerance
