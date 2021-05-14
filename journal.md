@@ -2,12 +2,22 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-10T11:04:36.941Z
+date: 2021-05-14T18:51:03.766Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 12.5.2021
+- Debugging & Fixes für Shadow.
+## Erledigt
+- Verteiltes Testen des ganzen Systems.
+- Lösen von Encoding & Formatting Fehlern.
+## Planung & Gedanken
+- Das Shadow System braucht noch mehr Error-Handling & Failsafes.
+## Aufgaben
+- Merge test_env into Shadow/dev.
+- Shadow error handling & unit tests.
 # 8.5.2021
 - Verteiltes Testen von Shadow
 - Überarbeiten des AOT-AST-Parsers
