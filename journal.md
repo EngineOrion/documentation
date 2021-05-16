@@ -2,12 +2,21 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-14T18:51:34.091Z
+date: 2021-05-16T20:32:34.226Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 16.5.2021
+- Integration neuster Änderungen von "test_env".
+## Erledigt
+- Alle Änderungen von der Testumgebung wurden übernommen.
+## Planung & Gedanken
+- Es ist am einfachsten zwei getrennte Versionen zu haben, es wird aber ein System benötigt die Änderungen schnell zu integrieren.
+## Aufgaben
+- Full stack testing
+- Shadow fault tolerance
 # 12.5.2021
 - Debugging & Fixes für Shadow.
 ## Erledigt
