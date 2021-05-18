@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-16T20:32:34.226Z
+date: 2021-05-18T06:59:17.724Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -10,6 +10,7 @@ dateCreated: 2021-03-26T15:57:07.835Z
 
 # 16.5.2021
 - Integration neuster Änderungen von "test_env".
+- Integration `get` command line arguments für hunter.
 ## Erledigt
 - Alle Änderungen von der Testumgebung wurden übernommen.
 ## Planung & Gedanken
