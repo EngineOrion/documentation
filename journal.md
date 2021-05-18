@@ -2,7 +2,7 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-18T06:59:17.724Z
+date: 2021-05-18T07:02:07.797Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
@@ -13,11 +13,13 @@ dateCreated: 2021-03-26T15:57:07.835Z
 - Integration `get` command line arguments für hunter.
 ## Erledigt
 - Alle Änderungen von der Testumgebung wurden übernommen.
+- Imnplementierung der Spezifikationen.
 ## Planung & Gedanken
 - Es ist am einfachsten zwei getrennte Versionen zu haben, es wird aber ein System benötigt die Änderungen schnell zu integrieren.
 ## Aufgaben
 - Full stack testing
 - Shadow fault tolerance
+- Die restlichen CL arguemente implementieren.
 # 12.5.2021
 - Debugging & Fixes für Shadow.
 ## Erledigt
