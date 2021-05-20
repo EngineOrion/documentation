@@ -2,12 +2,24 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-18T07:02:07.797Z
+date: 2021-05-20T10:16:53.715Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 20.5.2021
+- Grosse Fortschritte am schriftlichen Kommentar.
+- Erste Integration zwischen Hunter und Shadow.
+## Erledigt
+- Einführung & Aussicht im schriftlichen Kommentar fertig gestellt.
+- Weiterentwicklung an Hunter & Net-Script.
+- Unix-Socket integrationsversuche zwischen hunter & shadow.
+## Planung & Gedanken
+- Für ein einfach benutzbares System werden Installations-Scripts und klare Routinen benötigt.
+## Aufgaben
+- Projekte Recherche & Realisierung im schriftlichen Kommentar
+- Anpassung des Websocket-Interfaces an hunter.
 # 16.5.2021
 - Integration neuster Änderungen von "test_env".
 - Integration `get` command line arguments für hunter.
