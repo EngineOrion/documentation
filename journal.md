@@ -2,12 +2,23 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-20T10:16:53.715Z
+date: 2021-05-25T15:27:05.539Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 24.5.2021
+- Vollständige Integration von Hunter in Shadow & websocket.or
+## Erledigt
+- Wechsel von statischen Config Dateien auf "hunter cli".
+- Testen des "hunter socket" Systems
+## Planung & Gedanken
+- Websockets müssen angepasst und vereinfacht werden, sonst sind nicht alle benötigten Werte vorhanden.
+## Aufgaben
+- Testen des gesamten Systems.
+- Websocket.or umschreiben.
+- Kommentar Projekte Abschnitt.
 # 20.5.2021
 - Grosse Fortschritte am schriftlichen Kommentar.
 - Erste Integration zwischen Hunter und Shadow.
