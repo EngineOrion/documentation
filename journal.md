@@ -2,12 +2,27 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-25T15:27:05.539Z
+date: 2021-05-27T20:02:12.147Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 27.5.2021
+- Weiterentwicklung der Containerapplikation.
+## Erledigt
+- Implementierung der `REPL` für die container Logik.
+- Lösen der meisten Fehler beim kompilieren der container applikation.
+- Veraltetes README überarbeiten 
+- Help Commands auf den die neuen Befehle anpassen.
+## Planung und Gedanken
+- Die neue Schnittstelle der Containerlogik sollte die Nutzung detlich vereinfachen, sind aber noch nicht durchintegriert.
+- Mit den neusten Fortschritten vom NET-Script jitten, wird es bald möglich sein container zu starten und zu testen.
+- Zum Teil kann bei kleinen Fehlern die ganze Applikation abstürzen, was umbedingt behoben werden muss.
+## Aufgaben
+- NET-Script jitter weiterentwickeln und in die containerlogik integrieren.
+- REPL weiter verbessern und mehr Funktionen einbauen.
+- Bug-Fixing
 # 24.5.2021
 - Vollständige Integration von Hunter in Shadow & websocket.or
 ## Erledigt
