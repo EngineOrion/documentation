@@ -2,12 +2,24 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-05-27T20:02:12.147Z
+date: 2021-06-02T15:54:08.657Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 2.06.2021
+- Bugfixing & Tests
+## Erledigt
+- Verteiltes testen des Datensystems
+- Integration von Container in hunter
+- Arbeiten am schriftlichen Kommentar
+## Planung und Gedanken
+- Der gesamte Durchlauf des Systems muss vor den einzelnen Komponenten erklärt werden.
+- Die Demo ist nur bedingt sinnvoll, allerdings nur auf die Vorführung ausgelegt.
+## Aufgaben
+- Komponenten erklärung.
+- Vollständiger Test
 # 27.5.2021
 - Weiterentwicklung der Containerapplikation.
 ## Erledigt
