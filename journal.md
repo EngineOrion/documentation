@@ -2,12 +2,22 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-06-02T15:54:08.657Z
+date: 2021-06-07T20:02:20.873Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 7.06.2021
+- Finale Implementierung von NET-Script
+## Erledigt
+- Die Implementierung von NET-Script wurde heute fast abgeschlossen.
+- Implementierung einer Hilfenachricht bei Hunter.
+## Planung und Gedanken
+- Die neue Implementierung ist ziemlich universell und erlaubt es schnell neue Befehle zu implementieren.
+## Aufgaben
+- Es gibt noch kleine probleme beim Zugriff auf Variablen. Dies müssen noch behoben werden.
+- Es fehlen noch einzlne Befehle und einen Teil des interfaces.
 # 2.06.2021
 - Bugfixing & Tests
 ## Erledigt
