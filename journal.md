@@ -2,12 +2,22 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-06-07T20:02:20.873Z
+date: 2021-06-12T14:57:05.995Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 12.06.2021
+- Allgemeines Debugging & Vorbereitung auf Präsentation.
+## Erledigt
+- Anpassung verschiedener Module auf die Präsentation
+- Planung für die Präsentation, Aufteilung der Aufgaben
+## Planung und Gedanken
+- Spannender Anfang -> Anzahl Angestellte, zu gross / zu klein.
+## Aufgaben
+- System nochmals im Schulnetz testen
+- Probedurchlauf der Präsentation
 # 7.06.2021
 - Finale Implementierung von NET-Script
 ## Erledigt
