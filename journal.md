@@ -2,12 +2,26 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-06-12T14:57:05.995Z
+date: 2021-08-16T11:12:54.883Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 16.08.2021
+- Überarbeitetung des Vertrags
+## Erledigt
+- Neuer Vertrag durch neue Ziele
+- Zeitplan für die zweite Phase
+## Planung und Gedanken
+- Neue Ziele sind sehr aufwendig.
+## Aufgaben
+- Vertrag besprechen und unterschreiben
+- Weiterentwicklung
+# Sommer '21
+-	Die aktuelle Fassung ist sehr schwer zu erklären und präsentieren.
+- Anstelle der Modularität sollen Anwendungen und Beispiele entwickelt werden.
+- Geplant sind: Chat, NET-Script, Contact Tracing, Emacs Collab, 3D Game
 # 12.06.2021
 - Allgemeines Debugging & Vorbereitung auf Präsentation.
 ## Erledigt
