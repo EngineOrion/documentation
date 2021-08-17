@@ -2,12 +2,22 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-08-16T11:12:54.883Z
+date: 2021-08-17T11:39:31.033Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 17.08.2021
+- Actaeon (Networking) TCP Connection Handler.
+## Erledigt
+- Blocking TCP Handler, der Verbindungen entgegen nimmt und für jede einen eigenen Thread startet.
+- Umstrukturierung für neue Config Form.
+## Planung und Gedanken
+- Der Web Handler darf nicht Blocking sein, da das User Interface frei sein bleiben muss.
+- Die Configuration und eine zentrale Datenstruktur müssen global erreichbar sein, da sie in Trait implementierungen verwendet werden sollen. Wie kann man das einfach regeln ohne "unsafe" zu verwenden? "lazy_static"
+## Aufgaben
+- Dynamische globale Daten / Config speichern
 # 16.08.2021
 - Überarbeitetung des Vertrags
 ## Erledigt
