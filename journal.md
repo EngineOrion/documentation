@@ -2,12 +2,23 @@
 title: Journal
 description: Arbeitsprozess der Engine: Orion Entwicklung
 published: 1
-date: 2021-08-17T11:39:31.033Z
+date: 2021-08-28T19:03:18.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-26T15:57:07.835Z
 ---
 
+# 28.08.2021
+- Actaeon (Networking) Message parsing & transactions.
+- TODO: Dominik
+## Erledigt
+- Neues Modul zum Verarbeiten von Nachrichten und wire formats.
+- Verbesserte Dokumentation & Unit Tests.
+- TODO: Dominik
+## Planung und Gedanken
+- Anstelle eines manuellen "Engine" Systems, in dem Nutzer das Verarbeiten von Nachrichten selbst übernehmen müssen soll ein einfacheres Pull system verwendet werden, in dem Nutzer Nachrichten aktiv abfragen.
+## Aufgaben
+- Integration mit Switch, überarbeitetes Signaling.
 # 17.08.2021
 - Actaeon (Networking) TCP Connection Handler.
 ## Erledigt
